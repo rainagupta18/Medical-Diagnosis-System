@@ -4,7 +4,7 @@ The Medical Helper Expert System is a rule-based application developed using Pro
 This system is designed as a beginner-level Artificial Intelligence project to demonstrate how expert systems work using logic programming
 
 ## Tools used 
-- Vs code
+- vs code
 - Prolog
 ## Code Blocks
 ```bash
@@ -21,7 +21,7 @@ mild_fever :-
     yes(temperature(T)),
     T < 100.
 ```
-This block of code is used for asking temperature the following logic is based on this block
+This block of code is used to ask for the temperature;the following logic is based on this block
 ```bash
 % Flu (high fever + cough + body pain)
 disease(flu) :-
@@ -51,7 +51,7 @@ disease(heart_problem) :-
     symptom(chest_pain),
     symptom(breathing_problem).
 ```
-It takes input from the user and based on if else loop it displayses output as disease accquired
+It takes input from the user and based on if else loop it displays output as disease accquired
 
 ## outcome of the project 
 -	To develop a simple AI-based diagnostic tool 
